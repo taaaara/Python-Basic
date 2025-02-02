@@ -57,7 +57,29 @@
 # Create two variable(name, school).
 # Make it so that the following content is displaying when run
 
-name = 'Tara'
-school = 'YISS'
-print('Hello, my name is', name)
-print('I am currently a 5th grade student at' ,school)
+# name = 'Tara'
+# school = 'YISS'
+# print('Hello, my name is', name)
+# print('I am currently a 5th grade student at' ,school)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Type casting
+# str(variable or value)    => converts variable or value to str data type
+# float(variable or value)  => converts variable or value to float data type
+# int(variable or value)    => converts variable or value to int data type
+# Just using them in calculation doesn't change the original variable's data type
+# To change the original variable's data type, save it back into the variable [ex. a=int(a)]
+
+var1 = 2
+var2 = '31'
+result = var1 + int(var2)   # saves var1 + var2 converted to int in result
+print(result)
+print(type(var2))           # prints the data type of var2, which is still str
+var2 = int(var2)            # converts var2 to int and saves it back in var2
+print(type(var2))           # prints the new data type of var2
+
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
