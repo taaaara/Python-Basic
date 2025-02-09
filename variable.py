@@ -83,3 +83,23 @@ print(type(var2))           # prints the new data type of var2
 
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+
+# input('text' or value or variable)
+# Displays 'text' or the value of the variable, then waits for keyboard input until Enter is pressed 
+# 'text' or variable can be left out
+# variable = input('text' or variable)
+# usually used in this format, without variable it hte input is not saved 
+# input () always saves the valur as a str data type
+
+var = 2
+var2 = input("Insert anything")
+print(var2)
+print(type(var2))
+
+var2 = int(var2)
+print(type(var2))
+
+sum= var1 + var2
+print(sum)
