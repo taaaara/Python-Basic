@@ -73,13 +73,13 @@
 # Just using them in calculation doesn't change the original variable's data type
 # To change the original variable's data type, save it back into the variable [ex. a=int(a)]
 
-var1 = 2
-var2 = '31'
-result = var1 + int(var2)   # saves var1 + var2 converted to int in result
-print(result)
-print(type(var2))           # prints the data type of var2, which is still str
-var2 = int(var2)            # converts var2 to int and saves it back in var2
-print(type(var2))           # prints the new data type of var2
+# var1 = 2
+# var2 = '31'
+# result = var1 + int(var2)   # saves var1 + var2 converted to int in result
+# print(result)
+# print(type(var2))           # prints the data type of var2, which is still str
+# var2 = int(var2)            # converts var2 to int and saves it back in var2
+# print(type(var2))           # prints the new data type of var2
 
 
 #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
@@ -93,13 +93,37 @@ print(type(var2))           # prints the new data type of var2
 # usually used in this format, without variable it hte input is not saved 
 # input () always saves the valur as a str data type
 
-var = 2
-var2 = input("Insert anything")
-print(var2)
-print(type(var2))
+# var = 2
+# var2 = input("Insert anything")
+# print(var2)
+# print(type(var2))
 
-var2 = int(var2)
-print(type(var2))
+# var2 = int(var2)
+# print(type(var2))
 
-sum= var1 + var2
-print(sum)
+# sum= var1 + var2
+# print(sum)
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+
+# +     add
+# -     subtract
+# *     multiply
+# /     divide (result is a float)
+# //    integer division (result is an int)
+# %     modulus (remainder)
+# **    exponet (power)
+
+a = 10
+b= 3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)

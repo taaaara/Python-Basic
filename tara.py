@@ -6,8 +6,9 @@
 
 import streamlit as st
 
-st.title("")
+title = "Capybara"      # no "" for variable
+st.title(title)        
 st.write("")
 
-name = st.text_input("Enter your name")
+name = st.text_input("Chat")
 st.write(name)
