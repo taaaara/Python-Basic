@@ -6,9 +6,12 @@
 
 import streamlit as st
 
-title = "Capybara"      # no "" for variable
-st.title(title)        
-st.write("")
+title = "No Hunger"      # "" for variable
+st.title(title)
 
-name = st.text_input("Chat")
-st.write(name)
+text = """
+Help people who are starving. Give them food. The more people you help you get you earn "Thank You Points". 
+With that you can buy other foods which will make you more points.
+"""
+st.write(text)
+st.write("")
