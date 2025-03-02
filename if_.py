@@ -59,3 +59,17 @@
 #     print("Good, have fun watching.")
 # elif(12 > age):
 #     print("Sorry, only over 12 years can watch the movie.")
+
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+print("Enter Number")
+number = int(input())       # int
+
+if(number % 2 == 0):        # use 0
+    print('Even')
+elif(number % 2 != 0):
+    print("Odd")
+
+
