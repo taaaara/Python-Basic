@@ -36,18 +36,18 @@
 # To print multiple items, use a comma (,)
 # If you use print() with nothing inside, it prints an empty line
 
-# name = 'Tara'
-# age = 10
-# height = 148
-# print(name)
-# print()     #prints an empty line
-# print(age)
-# print(height)
-# print('hi')
-# print()
-# print(5)
-# print(5*10)
-# print(name, age, height, "hello")
+name = 'Tara'
+age = 10
+height = 148
+print(name)
+print()     #prints an empty line
+print(age)
+print(height)
+print('hi')
+print()
+print(5)
+print(5*10)
+print(name, age, height, "hello")
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
