@@ -15,3 +15,10 @@ With that you can buy other foods which will make you more points.
 """
 st.write(text)
 st.write("")
+
+
+
+
+st.image("1.png")
+
+
